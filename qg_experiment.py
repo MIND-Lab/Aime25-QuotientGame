@@ -1,11 +1,11 @@
 import tensorflow as tf
 import numpy as np
-import cnn_models as cnn_models
+import utils.cnn_models as cnn_models
 import os
 import gc
 import psutil
 
-import quotient_game as pks
+import utils.quotient_game as pks
 
 
 def sample_for_background_dataset(x, y, dimension = 100):

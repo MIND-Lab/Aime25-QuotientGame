@@ -5,7 +5,7 @@ import os
 import gc
 import psutil
 
-import kernel_shap as ks
+import utils.kernel_shap as ks
 
 
 def sample_for_background_dataset(x, y, dimension = 100):

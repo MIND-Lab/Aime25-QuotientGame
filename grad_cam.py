@@ -1,9 +1,7 @@
 import tensorflow as tf
 import numpy as np
-import scikit_raman.Classes.Keras.Model.DLModel as model_keras
 import GradCam as gcam_base
 import os
-import keras
 import cnn_models
 
 
