@@ -16,10 +16,10 @@ The **utils** folder contains utility scripts used in the experiments:
 ## Experiment files
 Description of the remaining files in the repository:
 
-shap.py: Experiments using the [SHAP]([url](https://shap.readthedocs.io/en/latest/)) method.
-lime.py: Experiments using the [LIME]([url](https://github.com/marcotcr/lime)) method.
-qg_experiment.py: Experiments using the Quotient Game method.
-grad_cam.py: Experiments using the Grad-CAM method.
+- shap.py: Experiments using the [SHAP]([url](https://shap.readthedocs.io/en/latest/)) method.
+- lime.py: Experiments using the [LIME]([url](https://github.com/marcotcr/lime)) method.
+- qg_experiment.py: Experiments using the Quotient Game method.
+- grad_cam.py: Experiments using the Grad-CAM method.
 
 The file **experiments.py** provides an example experiment for each method applied to the PD-AD dataset. It leverages all the available files in the repository.
 
