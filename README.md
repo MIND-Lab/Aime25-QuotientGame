@@ -4,6 +4,9 @@ This repository contains the code to replicate the experiments conducted for the
 ## Dataset
 The **dataset** folder contains pickle files with the datasets used for the experiments.
 
+## Model Weights
+The **covid** and **pd-ad** folders contain the weights of the models trained using the leave-one-patient-out paradigm in [Keras]([url](https://keras.io/))).
+
 ## Utils
 The **utils** folder contains utility scripts used in the experiments:
 
